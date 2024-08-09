@@ -1,0 +1,6 @@
+
+---
+- hosts: all
+  tasks:
+    - name: Deploy application
+      shell: ./deploy.sh
